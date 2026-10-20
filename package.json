@@ -1,1 +1,1 @@
-{"name":"business-calculator","private":true,"type":"module","scripts":{"test":"node --test tests.mjs","build":"node build.mjs"}}
+{"name":"business-calculator","private":true,"type":"module","scripts":{"test":"node --test tests.mjs tests/regression.test.mjs tests/extension.test.mjs","build":"node build.mjs"}}

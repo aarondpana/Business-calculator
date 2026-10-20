@@ -1,0 +1,445 @@
+[
+  {
+    "id": "leads",
+    "input": {
+      "p": 1000,
+      "r": 10,
+      "c": 40,
+      "q": 50,
+      "w": 25,
+      "v": 3000,
+      "t": 15000,
+      "start": "2026-10",
+      "first": "2026-10-20",
+      "second": "2026-11-20",
+      "period": "weekly"
+    },
+    "output": [
+      [
+        "Expected responses",
+        100
+      ],
+      [
+        "Expected calls",
+        40
+      ],
+      [
+        "Expected proposals",
+        20
+      ],
+      [
+        "Expected customers",
+        5
+      ],
+      [
+        "Estimated contracted revenue",
+        15000,
+        "$"
+      ],
+      [
+        "Prospects needed for target",
+        1000,
+        "ceil"
+      ]
+    ]
+  },
+  {
+    "id": "profit",
+    "input": {
+      "l": 100,
+      "c": 20,
+      "t": 30,
+      "v": 1000,
+      "m": 60,
+      "s": 500,
+      "start": "2026-10",
+      "first": "2026-10-20",
+      "second": "2026-11-20",
+      "period": "weekly"
+    },
+    "output": [
+      [
+        "Additional customers",
+        10
+      ],
+      [
+        "Additional revenue",
+        10000,
+        "$"
+      ],
+      [
+        "Incremental contribution",
+        6000,
+        "$"
+      ],
+      [
+        "Monthly financial benefit",
+        6500,
+        "$"
+      ],
+      [
+        "Annualized financial benefit",
+        78000,
+        "$"
+      ],
+      [
+        "Closing rate change",
+        10,
+        "pp"
+      ]
+    ]
+  },
+  {
+    "id": "pricing",
+    "input": {
+      "h": 40,
+      "l": 75,
+      "c": 1000,
+      "s": 200,
+      "o": 100,
+      "b": 10,
+      "m": 50,
+      "p": 10000,
+      "start": "2026-10",
+      "first": "2026-10-20",
+      "second": "2026-11-20",
+      "period": "weekly"
+    },
+    "output": [
+      [
+        "Estimated delivery cost",
+        4730,
+        "$"
+      ],
+      [
+        "Minimum price for target margin",
+        9460,
+        "$"
+      ],
+      [
+        "Proposed fee contribution",
+        5270,
+        "$"
+      ],
+      [
+        "Proposed fee margin",
+        52.7,
+        "%"
+      ],
+      [
+        "Contribution per founder hour",
+        131.75,
+        "$"
+      ]
+    ]
+  },
+  {
+    "id": "launch",
+    "input": {
+      "p": 999,
+      "n": 4,
+      "h": 8,
+      "d": 100,
+      "a": 75,
+      "f": 400,
+      "start": "2026-10",
+      "first": "2026-10-20",
+      "second": "2026-11-20",
+      "period": "weekly"
+    },
+    "output": [
+      [
+        "Monthly revenue",
+        3996,
+        "$"
+      ],
+      [
+        "Monthly cash expenses",
+        1100,
+        "$"
+      ],
+      [
+        "Estimated contribution",
+        3296,
+        "$"
+      ],
+      [
+        "Operating profit before owner pay & taxes",
+        2896,
+        "$"
+      ],
+      [
+        "Founder hours required",
+        32,
+        "hours"
+      ],
+      [
+        "Contribution per founder hour",
+        103,
+        "$"
+      ]
+    ]
+  },
+  {
+    "id": "revenue",
+    "input": {
+      "t": 15000,
+      "p": 3000,
+      "c": 25,
+      "d": 5,
+      "h": 10,
+      "s": 5,
+      "start": "2026-10",
+      "first": "2026-10-20",
+      "second": "2026-11-20",
+      "period": "weekly"
+    },
+    "output": [
+      [
+        "Required customers",
+        5,
+        "ceil"
+      ],
+      [
+        "Required discovery calls",
+        20,
+        "ceil"
+      ],
+      [
+        "Required prospects",
+        400,
+        "ceil"
+      ],
+      [
+        "Estimated monthly outreach workload",
+        33.333333333333336,
+        "hours"
+      ],
+      [
+        "Available monthly outreach hours",
+        43.333333333333336,
+        "hours"
+      ],
+      [
+        "Outreach hours remaining",
+        10,
+        "hours"
+      ]
+    ]
+  },
+  {
+    "id": "capacity",
+    "input": {
+      "h": 40,
+      "c": 5,
+      "n": 4,
+      "a": 6,
+      "p": 8,
+      "start": "2026-10",
+      "first": "2026-10-20",
+      "second": "2026-11-20",
+      "period": "weekly"
+    },
+    "output": [
+      [
+        "Available delivery hours",
+        26,
+        "hours"
+      ],
+      [
+        "Maximum sustainable clients",
+        5
+      ],
+      [
+        "Estimated delivery utilization",
+        76.92307692307692,
+        "%"
+      ],
+      [
+        "Remaining client capacity",
+        1
+      ],
+      [
+        "Remaining delivery hours",
+        6,
+        "hours"
+      ]
+    ]
+  },
+  {
+    "id": "roi",
+    "input": {
+      "f": 5000,
+      "s": 500,
+      "o": 500,
+      "c": 2000,
+      "v": 500,
+      "r": 2,
+      "e": 12,
+      "start": "2026-10",
+      "first": "2026-10-20",
+      "second": "2026-11-20",
+      "period": "weekly"
+    },
+    "output": [
+      [
+        "Total client investment",
+        6000,
+        "$"
+      ],
+      [
+        "Monthly net benefit after ramp-up",
+        2500,
+        "$"
+      ],
+      [
+        "Cumulative financial benefit",
+        25000,
+        "$"
+      ],
+      [
+        "Net ROI",
+        316.6666666666667,
+        "%"
+      ],
+      [
+        "Break-even from project start",
+        4.4,
+        "months"
+      ],
+      [
+        "12-month ROI scenario",
+        316.6666666666667,
+        "%"
+      ]
+    ]
+  },
+  {
+    "id": "cash",
+    "input": {
+      "v": 20000,
+      "p": 50,
+      "q": 50,
+      "e": 4000,
+      "s": 3000,
+      "i": 0,
+      "o": 0,
+      "start": "2026-10",
+      "first": "2026-10-20",
+      "second": "2026-11-20",
+      "period": "weekly"
+    },
+    "output": [
+      [
+        "Contract value (not collected cash)",
+        20000,
+        "$"
+      ],
+      [
+        "Scheduled cash collections",
+        20000,
+        "$"
+      ],
+      [
+        "Ending cash after six months",
+        -1000,
+        "$"
+      ],
+      [
+        "Lowest month-end cash",
+        -1000,
+        "$"
+      ],
+      [
+        "Oct 2026 cash collections",
+        10000,
+        "$"
+      ],
+      [
+        "Oct 2026 operating cash flow",
+        6000,
+        "$"
+      ],
+      [
+        "Oct 2026 ending cash",
+        9000,
+        "$"
+      ],
+      [
+        "Nov 2026 cash collections",
+        10000,
+        "$"
+      ],
+      [
+        "Nov 2026 operating cash flow",
+        6000,
+        "$"
+      ],
+      [
+        "Nov 2026 ending cash",
+        15000,
+        "$"
+      ],
+      [
+        "Dec 2026 cash collections",
+        0,
+        "$"
+      ],
+      [
+        "Dec 2026 operating cash flow",
+        -4000,
+        "$"
+      ],
+      [
+        "Dec 2026 ending cash",
+        11000,
+        "$"
+      ],
+      [
+        "Jan 2027 cash collections",
+        0,
+        "$"
+      ],
+      [
+        "Jan 2027 operating cash flow",
+        -4000,
+        "$"
+      ],
+      [
+        "Jan 2027 ending cash",
+        7000,
+        "$"
+      ],
+      [
+        "Feb 2027 cash collections",
+        0,
+        "$"
+      ],
+      [
+        "Feb 2027 operating cash flow",
+        -4000,
+        "$"
+      ],
+      [
+        "Feb 2027 ending cash",
+        3000,
+        "$"
+      ],
+      [
+        "Mar 2027 cash collections",
+        0,
+        "$"
+      ],
+      [
+        "Mar 2027 operating cash flow",
+        -4000,
+        "$"
+      ],
+      [
+        "Mar 2027 ending cash",
+        -1000,
+        "$"
+      ]
+    ]
+  }
+]
