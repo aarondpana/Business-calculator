@@ -1,5 +1,5 @@
 import {ask} from './confirm.mjs';
-import {extraTools,groups,category,mountExtended,calculatorIntegration,clearNewData} from './extended.mjs';
+import {extraTools,groups,category,mountExtended,calculatorIntegration,clearNewData} from './extended.mjs?v=14.1';
 import {calculators,defaults} from './calculators.mjs';
 const app=document.querySelector('#app');let filter='All tools',active,values,rows;const key='ap-consulting-tools-v1';let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')||{};}catch{}const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=(v,u)=>v===null||!Number.isFinite(v)?'Not attainable':u==='$'?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:2}).format(v):new Intl.NumberFormat('en-US',{maximumFractionDigits:2}).format(u==='ceil'?Math.ceil(v):v)+(u&&u!=='ceil'?' '+u:'');
